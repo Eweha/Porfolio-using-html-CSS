@@ -258,9 +258,6 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -271,17 +268,6 @@ button::-moz-focus-inner,
 }
 
 input[type="radio"],
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
-}
 
 textarea {
   overflow: auto;
@@ -316,19 +302,7 @@ progress {
   height: auto;
 }
 
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
-}
 
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button;
-}
 
 output {
   display: inline-block;
